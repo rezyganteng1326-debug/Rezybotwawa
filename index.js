@@ -112,11 +112,18 @@ if (
 // ==========================================
 // 📌 TARUH GLOBAL DI SINI (SEBELUM Start())
 // ==========================================
-global.bot1 = bot1;
-global.bot2 = bot2;
+
+// 🔹 HAPUS YANG INI:
+// global.bot1 = bot1;
+// global.bot2 = bot2;
+// global.target = '628xxxxxxx@s.whatsapp.net';
+
+// 🔹 GANTI DENGAN INI (buat sementara):
+global.bot1 = null;
+global.bot2 = null;
 global.target = '628xxxxxxx@s.whatsapp.net';
 
-console.log('✅ Multi-nomor siap!');
+console.log('✅ Multi-nomor siap! (tunggu koneksi bot)');
 
 // ==========================================
 Start()
