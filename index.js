@@ -109,4 +109,14 @@ if (
    process.exit(1)
 }
 
+// ==========================================
+// 📌 TARUH GLOBAL DI SINI (SEBELUM Start())
+// ==========================================
+global.bot1 = bot1;
+global.bot2 = bot2;
+global.target = '628xxxxxxx@s.whatsapp.net';
+
+console.log('✅ Multi-nomor siap!');
+
+// ==========================================
 Start()
