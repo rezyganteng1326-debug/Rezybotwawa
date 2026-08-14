@@ -1,6 +1,6 @@
 export default {
    command: ['spam', 'spammsg'],
-   category: 'owner',
+   category: 'maker',
    description: 'Kirim pesan berulang (auto retry kalo gagal)',
    async run(m, { sock, isPrefix, command, text }) {
       try {
